@@ -1,0 +1,5 @@
+In this file, I write additional information for me, this act as guide.
+
+- For add schedule in flow, you can add this:
+	from prefect.schedules import IntervalSchedule  ---> Package
+	schedule = IntervalSchedule(interval=timedelta(seconds=10)) --> Used this in Flow's head and when finally your task. 
